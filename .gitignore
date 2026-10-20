@@ -1,0 +1,45 @@
+﻿# Sensitive and credential files
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+credentials.json
+token.json
+secrets/
+
+# Documents & Presentation files (kept locally only)
+*.docx
+*.pptx
+*.xlsx
+~$*
+_backup/
+
+# OS files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Java compiled files
+*.class
+*.jar
+*.war
+bin/
+target/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE configurations
+.vscode/
+.idea/
+*.iml
+
+# Data files
+books.txt
